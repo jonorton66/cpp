@@ -29,7 +29,7 @@ int main(){
     }
 	
 	ofstream myfile;
-	myfile.open ("/Users/mac/Desktop/Password.txt");
+	myfile.open ("~/Password.txt");
 	myfile << Str;
 	myfile.close();
 	
